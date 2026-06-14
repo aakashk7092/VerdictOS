@@ -1,0 +1,22 @@
+{
+"name": "backendAgent",
+"version": "1.0.0",
+"type": "module",
+
+"scripts": {
+"start": "node src/server.js",
+"dev": "node src/server.js"
+},
+
+"dependencies": {
+"@google/genai": "^2.8.0",
+"@tavily/core": "^0.7.6",
+"axios": "^1.17.0",
+"cheerio": "^1.2.0",
+"cors": "^2.8.6",
+"dotenv": "^17.4.2",
+"express": "^5.2.1",
+"openai": "^6.42.0",
+"zod": "^4.4.3"
+}
+}
